@@ -1,0 +1,61 @@
+
+h1 {
+    background-image: url("photo-1647831570034-51d43eac0694.avif");
+
+}
+
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1,p {
+    color:whitesmoke;
+}
+
+
+.container {
+display: flex;
+height: 100vh
+}
+
+.sidebar {
+flex: 1;
+padding: 10px;
+}
+
+.content{
+flex: 3;
+padding: 10px;
+background-size: cover;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+
+}
+img {
+    width: 100%;
+    border-radius: 10000px;
+}
+
+li{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+button{
+    border-radius: 3px;
+    margin: 0 auto;
+    display: block;
+    border-width: 0;
+    padding: 10px;
+    background-color: #567fa2;
+    color: #d34f5e;
+    font-size: 16px;
+}
